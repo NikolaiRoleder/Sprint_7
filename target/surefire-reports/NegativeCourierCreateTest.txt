@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: NegativeCourierCreateTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.891 s <<< FAILURE! - in NegativeCourierCreateTest
+impossibleCreateCouriersWithSameLogin(NegativeCourierCreateTest)  Time elapsed: 2.076 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...гин уже используется[]> but was:<...гин уже используется[. Попробуйте другой.]>
+	at NegativeCourierCreateTest.impossibleCreateCouriersWithSameLogin(NegativeCourierCreateTest.java:69)
+
+impossibleCreateSameCouriers(NegativeCourierCreateTest)  Time elapsed: 0.804 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...гин уже используется[]> but was:<...гин уже используется[. Попробуйте другой.]>
+	at NegativeCourierCreateTest.impossibleCreateSameCouriers(NegativeCourierCreateTest.java:46)
+
