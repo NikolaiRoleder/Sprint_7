@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: CourierLoginParametrizedTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 121.444 s <<< FAILURE! - in CourierLoginParametrizedTest
+errorValidationLoginCourierTest[0](CourierLoginParametrizedTest)  Time elapsed: 60.162 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<504>
+	at CourierLoginParametrizedTest.errorValidationLoginCourierTest(CourierLoginParametrizedTest.java:51)
+
+errorValidationLoginCourierTest[2](CourierLoginParametrizedTest)  Time elapsed: 60.227 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<504>
+	at CourierLoginParametrizedTest.errorValidationLoginCourierTest(CourierLoginParametrizedTest.java:51)
+
